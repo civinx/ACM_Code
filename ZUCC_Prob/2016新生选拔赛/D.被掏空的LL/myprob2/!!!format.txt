@@ -1,0 +1,28 @@
+目录结构：
+
+题面：prob.txt/doc/docx
+标程：std.cpp
+数据：
+  程序：make.cpp
+  生成：make.bat
+  输入：data.in
+  输出：data.out
+测试：
+  程序：test.cpp
+  测试：test.bat
+格式化输入：win2nix.py
+
+
+使用指南：
+1、编写题面 prob
+2、编写标准程序 std.cpp，不需要在里面添加文件输入输出语句
+3、编写数据生成程序 make.cpp
+4、运行 make.bat，生成 data.in 和 data.out
+5、编写测试程序 test.cpp
+6、运行 test.bat，检验 test 是否正确。正确则无反应，不正确会提示哪里不同
+
+Post Scriptum：
+1、在 make.cpp 里有如何生成数据的建议
+2、题目将在 Linux 环境下被测评。Windows 下的回车都是 \r\n，而 Linux/Mac 则是 \n，早期 Mac 是 \r，所以 bat 文件将自动调用 win2nix.py 进行格式化。如果用“记事本”打开发现没换行，请用“写字板”或“Word”等打开
+3、请确保你的 cmd 支持 g++ 命令，否则请安装 MinGW/Cygwin，或手动编译并修改 bat 语句
+4、请确保你的 cmd 支持 python 命令，否则安装 Python3.0 以上，并把 Python 添加进 PATH（安装时可选）

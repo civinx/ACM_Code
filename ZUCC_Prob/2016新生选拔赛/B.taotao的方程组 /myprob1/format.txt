@@ -1,0 +1,14 @@
+题面：prob.txt/doc/docx
+数据：
+  程序：make.cpp
+  生成：make.bat
+  输入：data.in
+  输出：data.out
+标程：std.cpp
+测试：
+  程序：test.cpp
+  测试：test.bat
+格式化输入：win2nix.py
+
+注意：
+为了照顾新生，数据中第一行输入T，表示有T组样例。

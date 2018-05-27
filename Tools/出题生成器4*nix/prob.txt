@@ -1,0 +1,36 @@
+Title: 水题
+Time Limit: 1 Sec
+Memory Limit: 32 MB
+
+Description
+计算组合数 $$C(n, k) % 1000000007$$
+
+即组合数在对1000000007取模意义下的结果
+
+提示：$$C(n, k) = n! / (k! * (n-k)!)$$
+
+Input
+输入的第一行为 $T$，代表有 $T$ $(T \leq 100)$ 组数据
+接下来每行两个整数 $n, k$ $(1 \leq k \leq n \leq 10000)$
+
+Output
+输出 $C(n, k) % 1000000007$ 的结果
+
+Sample Input
+3
+3 1
+5 2
+10000 100
+
+Sample Output
+3
+10
+138648429
+
+
+HINT
+一对 $$ 表示的是数学公式，采用 LaTeX 的语法，
+Online LaTeX: 
+1、http://mathquill.com/
+2、http://zh.numberempire.com/texequationeditor/equationeditor.php
+3、http://latex.codecogs.com/
